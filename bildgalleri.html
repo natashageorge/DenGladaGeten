@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Den glada geten</title>
+  <link type="text/css" rel="stylesheet" href="senast.css"><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      border: 0;
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: grey;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;}
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+    }
+
+    .upperHeader {
+      background-color: #08BBFF;
+    }
+
+    .slideshow {
+      height: 200px;
+      background-color: #0079A7;
+    }
+
+    .navbar-collapse {
+      float: right;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container-fluid upperHeader">
+<div slider="slider">
+    <img src="geten.svg" class="logo">
+    </div>
+</div>
+    
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Den glada geten</a>
+    </div>
+      
+      <div class="slidebar">
+     
+      
+      
+      </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Hem</a></li>
+        <li><a href="bildgalleri.html">Bildgalleri</a></li>
+        <li><a href="bokning.html">Bokning</a></li>
+        <li><a href="#">Om</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logga in</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="big">
+    <div class="button switchImg leftbtn" ><div class="content">☜</div></div>
+    <img class="bigimg" src="">
+    <div class="button switchImg rightbtn"><div class="content">☞</div></div>
+</div>
+<div class="container" id="bf">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/1.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/2.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/3.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/4.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/5.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/6.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/7.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/8.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/9.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/10.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/11.jpg">
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <img class="mini img-responsive" src="images/12.jpg">
+        </div>
+    </div>
+</div>        
+            
+    </div>
+    </div>
+    </div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+    
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
